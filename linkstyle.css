@@ -1,0 +1,22 @@
+a {
+	position: relative;
+	font-size: 1.25rem;
+	text-decoration: none;
+}
+
+a::before {
+	content: '';
+	position: absolute;
+	left: 0; bottom: -5px;
+	width: 0;
+	height: 1.5px;
+	background-color: rgb(24, 104, 190);
+}
+
+a:hover:before {
+	width: 100%;
+}
+
+a::before {
+	transition: width 0.35s;
+}

@@ -38,6 +38,11 @@ main p {
   font-family: "sans-serif";
 }
 
+h2 {
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
 span {
   font-size: 1.8em;
   font-family: "Geostar", serif;
@@ -48,26 +53,71 @@ p:nth-last-of-type(1) {
   font-family: sans-serif;
   line-height: 1.6;
   margin-top: 2em;
+}
+
+.pnav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5em;
+  margin-top: 4vh;
+  margin-bottom: 3vh;
+  height: 15rem;
+  width: 14rem;
+  background: #f8f9fa;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #a2a9b1;
+  font-weight: 700;
+}
+
+.pnav ol {
+  margin-top: 5px;
+  font-weight: 350;
+  padding: 5px;
+}
+.pnav .dop {
+  margin-left: 30px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.fimg {
+  padding: 0.6em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  width: 12vw;
+  height: 22vh;
+  background: rgba(216, 53, 53, 0.4823529412);
+  margin-left: 75vw;
+  margin-top: -11vh;
+}
+
+.fimg img {
+  position: relative;
+  width: 260px;
+  background: #ffffff;
+}
+
+.fimg2 {
+  padding: 0.6em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  width: 12vw;
+  height: 22vh;
+  background: rgba(216, 53, 53, 0.4823529412);
+  margin-left: 75vw;
+  margin-top: 14vh;
+}
+
+.fimg2 img {
+  position: relative;
+  width: 260px;
+  background: #ffffff;
 }/*# sourceMappingURL=style.css.map */
-a {
-	position: relative;
-	text-decoration: none;
-}
-
-a::before {
-	content: '';
-	position: absolute;
-	left: 0; 
-  bottom: -5px;
-	width: 0;
-	height: 1.5px;
-	background-color: blue;
-}
-
-a:hover:before {
-	width: 100%;
-}
-
-a::before {
-	transition: width 0.18s;
-}
