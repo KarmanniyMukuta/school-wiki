@@ -53,6 +53,7 @@ p:nth-last-of-type(1) {
   font-family: sans-serif;
   line-height: 1.6;
   margin-top: 2em;
+  width: 75vw;
 }
 
 .pnav {
@@ -98,7 +99,7 @@ p:nth-last-of-type(1) {
 
 .fimg img {
   position: relative;
-  width: 260px;
+  width: 11vw;
   background: #ffffff;
 }
 
@@ -118,6 +119,6 @@ p:nth-last-of-type(1) {
 
 .fimg2 img {
   position: relative;
-  width: 260px;
+  width: 11vw;
   background: #ffffff;
 }/*# sourceMappingURL=style.css.map */
