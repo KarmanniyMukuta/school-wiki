@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background: rgb(191, 191, 183);
+  background: linear-gradient(332deg, #c2c8c1 10%, rgb(244, 239, 239) 48%, rgb(208, 205, 205) 98%);
+}
+
+nav {
+  background: #c2c8c1;
+  width: 10%;
+  height: 100vh;
+}
+
+main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 3rem;
+  padding-left: 1.6em;
+  padding-right: 1.6em;
+  background: white;
+  width: 90%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #52c1f1;
+}
+
+main h1 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+main p {
+  margin-top: 0.5rem;
+  font-family: "sans-serif";
+}
+
+span {
+  font-size: 1.8em;
+  font-family: "Geostar", serif;
+  line-height: 1.6px;
+}
+
+p:nth-last-of-type(1) {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin-top: 2em;
+}/*# sourceMappingURL=style.css.map */
+a {
+	position: relative;
+	text-decoration: none;
+}
+
+a::before {
+	content: '';
+	position: absolute;
+	left: 0; 
+  bottom: -5px;
+	width: 0;
+	height: 1.5px;
+	background-color: blue;
+}
+
+a:hover:before {
+	width: 100%;
+}
+
+a::before {
+	transition: width 0.18s;
+}
