@@ -121,4 +121,8 @@ p:nth-last-of-type(1) {
   position: relative;
   width: 11vw;
   background: #ffffff;
+}
+.fimg2 a {
+  font-weight: 400;
+  font-size: 1em;
 }/*# sourceMappingURL=style.css.map */
