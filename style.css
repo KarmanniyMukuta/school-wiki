@@ -235,4 +235,40 @@ p:nth-last-of-type(1) {
 h3 {
   margin-top: 20px;
   font-weight: 700;
+}
+
+.navph {
+  width: 95%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding: 2.3vh;
+  margin-left: 1rem;
+}
+
+.navbar ul {
+  margin: 1vh;
+  width: 100%;
+}
+.navbar ol {
+  padding: 0.13rem;
+}
+
+.navbar ol a {
+  font-weight: 1em;
+  font-size: 1em;
+  color: #2442b9;
+}
+
+.nvh {
+  height: 1px;
+  border: none;
+  background: rgb(194, 200, 193);
+  background: linear-gradient(90deg, #d8e0d6 10%, #4a4848 23%, #000000 52%, #585757 84%, #ced3cd 90%);
+  box-shadow: 0 0 8px 1.3px #a49c9c;
 }/*# sourceMappingURL=style.css.map */
