@@ -136,7 +136,7 @@ p:nth-last-of-type(1) {
   flex-direction: column;
   position: absolute;
   width: 12vw;
-  height: 15em;
+  height: 15rem;
   background: #e6e8e9;
   border-width: 2px;
   border-style: solid;
@@ -159,7 +159,7 @@ p:nth-last-of-type(1) {
   flex-direction: column;
   position: absolute;
   width: 12vw;
-  height: 15em;
+  height: 15rem;
   background: #e6e8e9;
   border-width: 2px;
   border-style: solid;
@@ -186,7 +186,7 @@ p:nth-last-of-type(1) {
   flex-direction: column;
   position: absolute;
   width: 12vw;
-  height: 20em;
+  height: 20rem;
   margin-left: 75vw;
   margin-top: -2vh;
   background: #e6e8e9;
@@ -213,7 +213,7 @@ p:nth-last-of-type(1) {
   flex-direction: column;
   position: absolute;
   width: 12vw;
-  height: 20em;
+  height: 22rem;
   margin-left: 75vw;
   margin-top: -5vh;
   background: #e6e8e9;
